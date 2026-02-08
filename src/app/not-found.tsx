@@ -6,9 +6,9 @@ import Link from "next/link";
 const NotFound = () => {
   return (
     <main>
-      <section className="bg-gray-50 pt-11 pb-16 sm:pt-14 sm:pb-20 lg:pt-20 lg:pb-[112px] min-h-screen">
+      <section className="bg-gray-50 pt-11 pb-16 sm:pt-14 sm:pb-20 lg:pt-20 lg:pb-28 min-h-screen">
         <div className="container">
-          <div className="mx-auto mb-6 max-w-[568px]">
+          <div className="mx-auto mb-6 max-w-142">
             <Image
               width={568}
               height={502}
@@ -20,7 +20,7 @@ const NotFound = () => {
           <div className="text-center">
             <h2
               className={
-                "text-[clamp(2rem,1.6087rem+1.7391vw,3rem)] leading-[1.25] font-medium tracking-[-0.96px]"
+                "text-[clamp(2rem,1.6087rem+1.7391vw,3rem)] leading-tight font-medium tracking-[-0.96px]"
               }
             >
               Page Not Found
