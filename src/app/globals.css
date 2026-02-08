@@ -2,25 +2,192 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0e121b;
+  --primary: #ffffff;
+  --secondary: #525866;
+  --gray-950: #0e121b;
+  --gray-900: #181b25;
+  --gray-800: #222530;
+  --gray-700: #2b303b;
+  --gray-600: #525866;
+  --gray-500: #717784;
+  --gray-400: #99a0ae;
+  --gray-300: #cacfd8;
+  --gray-200: #e1e4ea;
+  --gray-100: #f2f5f8;
+  --gray-50: #f5f7fa;
+  --gray-0: #ffffff;
+
+  --slate-950: #171717;
+  --slate-900: #1c1c1c;
+  --slate-800: #262626;
+  --slate-700: #333333;
+  --slate-600: #5c5c5c;
+  --slate-500: #7b7b7b;
+  --slate-400: #a3a3a3;
+  --slate-300: #d1d1d1;
+  --slate-200: #ebebeb;
+  --slate-100: #f5f5f5;
+  --slate-50: #f7f7f7;
+
+  --purple-950: #351a75;
+  --purple-900: #3d1d86;
+  --purple-800: #4c25a7;
+  --purple-700: #5b2cc9;
+  --purple-600: #693ee0;
+  --purple-500: #7d52f4;
+  --purple-400: #8c71f6;
+  --purple-300: #a897ff;
+  --purple-200: #cac0ff;
+  --purple-100: #dcd5ff;
+  --purple-50: #efebff;
+  --yellow-950: #624c18;
+  --yellow-900: #86661d;
+  --yellow-800: #a78025;
+  --yellow-700: #c99a2c;
+  --yellow-600: #e6a819;
+  --yellow-500: #f6b51e;
+  --yellow-400: #ffd268;
+  --yellow-300: #ffe097;
+  --yellow-200: #ffecc0;
+  --yellow-100: #ffefcc;
+  --yellow-50: #fffaeb;
+  --sky-950: #124b68;
+  --sky-900: #18658b;
+  --sky-800: #1f7ead;
+  --sky-700: #2597d0;
+  --sky-600: #35ade9;
+  --sky-500: #47c2ff;
+  --sky-400: #68cdff;
+  --sky-300: #97dcff;
+  --sky-200: #c0eaff;
+  --sky-100: #d5f1ff;
+  --sky-50: #ebf8ff;
 }
 
 @theme inline {
+  --font-inter-tight: var(--font-inter-tight);
+  --font-mulish: var(--font-mulish);
+  --font-inter: var(--font-inter);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-slate-950: var(--slate-950);
+  --color-slate-900: var(--slate-900);
+  --color-slate-800: var(--slate-800);
+  --color-slate-700: var(--slate-700);
+  --color-slate-600: var(--slate-600);
+  --color-slate-500: var(--slate-500);
+  --color-slate-400: var(--slate-400);
+  --color-slate-300: var(--slate-300);
+  --color-slate-200: var(--slate-200);
+  --color-slate-100: var(--slate-100);
+  --color-slate-50: var(--slate-50);
+  --color-slate-0: var(--slate-0);
+  --color-gray-950: var(--gray-950);
+  --color-gray-900: var(--gray-900);
+  --color-gray-800: var(--gray-800);
+  --color-gray-700: var(--gray-700);
+  --color-gray-600: var(--gray-600);
+  --color-gray-500: var(--gray-500);
+  --color-gray-400: var(--gray-400);
+  --color-gray-300: var(--gray-300);
+  --color-gray-200: var(--gray-200);
+  --color-gray-100: var(--gray-100);
+  --color-gray-50: var(--gray-50);
+  --color-purple-950: var(--purple-950);
+  --color-purple-900: var(--purple-900);
+  --color-purple-800: var(--purple-800);
+  --color-purple-700: var(--purple-700);
+  --color-purple-600: var(--purple-600);
+  --color-purple-500: var(--purple-500);
+  --color-purple-400: var(--purple-400);
+  --color-purple-300: var(--purple-300);
+  --color-purple-200: var(--purple-200);
+  --color-purple-100: var(--purple-100);
+  --color-purple-50: var(--purple-50);
+  --color-yellow-950: var(--yellow-950);
+  --color-yellow-900: var(--yellow-900);
+  --color-yellow-800: var(--yellow-800);
+  --color-yellow-700: var(--yellow-700);
+  --color-yellow-600: var(--yellow-600);
+  --color-yellow-500: var(--yellow-500);
+  --color-yellow-400: var(--yellow-400);
+  --color-yellow-300: var(--yellow-300);
+  --color-yellow-200: var(--yellow-200);
+  --color-yellow-100: var(--yellow-100);
+  --color-yellow-50: var(--yellow-50);
+  --color-sky-950: var(--sky-950);
+  --color-sky-900: var(--sky-900);
+  --color-sky-800: var(--sky-800);
+  --color-sky-700: var(--sky-700);
+  --color-sky-600: var(--sky-600);
+  --color-sky-500: var(--sky-500);
+  --color-sky-400: var(--sky-400);
+  --color-sky-300: var(--sky-300);
+  --color-sky-200: var(--sky-200);
+  --color-sky-100: var(--sky-100);
+  --color-sky-50: var(--sky-50);
+  --shadow-xs: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  --shadow-sm:
+    0 1px 3px 0 rgba(16, 24, 40, 0.1), 0 1px 2px 0 rgba(16, 24, 40, 0.06);
+  --shadow-md:
+    0 4px 8px -2px rgba(16, 24, 40, 0.1), 0 2px 4px -2px rgba(16, 24, 40, 0.06);
+  --shadow-lg:
+    0 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0 4px 6px -2px rgba(16, 24, 40, 0.03);
+  --shadow-xl:
+    0 20px 24px -4px rgba(16, 24, 40, 0.08),
+    0 8px 8px -4px rgba(16, 24, 40, 0.03);
+  --shadow-2xl: 0 24px 48px -12px rgba(16, 24, 40, 0.18);
+  --shadow-3xl: 0 32px 64px -12px rgba(16, 24, 40, 0.14);
+  --shadow-card:
+    0 669px 187px 0 rgba(56, 71, 86, 0), 0 428px 171px 0 rgba(56, 71, 86, 0),
+    0 241px 144px 0 rgba(56, 71, 86, 0.02),
+    0 107px 107px 0 rgba(56, 71, 86, 0.03), 0 27px 59px 0 rgba(56, 71, 86, 0.03);
+  --spacing-15: 60px;
+  --tracking-base: 0.48px;
+  --tracking-sm: 0.56px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-background font-inter-tight text-foreground;
+}
+
+button {
+  @apply not-disabled:cursor-pointer;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 10px;
+  @variant xl {
+    max-width: 1280px;
+    padding-inline: 32px;
+  }
+}
+.btn-gradient-border {
+  background:
+    linear-gradient(var(--primary), var(--primary)) padding-box,
+    linear-gradient(to top, var(--primary), var(--slate-200)) border-box;
+  border-radius: 999px;
+  border: 1.125px solid transparent;
+}
+.btn-gradient-border-black {
+  background:
+    linear-gradient(var(--gray-950), var(--gray-950)) padding-box,
+    linear-gradient(to top, #0E121B00, #222530) border-box;
+  border-radius: 999px;
+  border: 1.125px solid transparent;
+}
+
+/* hide number inout filed arrow */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
 }
