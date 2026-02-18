@@ -2,7 +2,7 @@
 
 Skillsaint is a production-ready LMS template built with React, Next.js, and Sanity CMS. Launch and manage your online learning platform with structured content, secure payments, and full admin control - all on a scalable Tailwind CSS foundation. 
 
-### What You Get
+### Highlights
 This is a free, light, open-source version of Skillsaint to try out and use as a landing page. Skillsaint Pro includes all the features with fully functional LMS features mentioned below.
 
 **Modern Stack**
