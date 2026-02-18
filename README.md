@@ -1,4 +1,4 @@
-# Skillsaint - React LMS Template built with Next.js & Sanity CMS
+# Skillsaint - React Next.js Sanity LMS Template
 
 Skillsaint is a production-ready **LMS template built with React, Next.js, and Sanity CMS**. Launch and manage your online learning platform with structured content, secure payments, and full admin control - all on a scalable **Tailwind CSS** styling foundation.
 
