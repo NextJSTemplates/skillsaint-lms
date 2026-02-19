@@ -2,6 +2,9 @@
 
 Skillsaint is a production-ready **LMS template built with React, Next.js, and Sanity CMS**. Launch and manage your online learning platform with structured content, secure payments, and full admin control - all on a scalable **Tailwind CSS** styling foundation.
 
+![Skillsaint - React Next.js Sanity LMS Template](./skillsaint-lms.png)
+
+
 #### [🚀 Live Demo](https://demo.skillsaint.com)
 
 #### [🔥 Get Pro](https://skillsaint.com/pricing)
@@ -11,7 +14,7 @@ Skillsaint is a production-ready **LMS template built with React, Next.js, and S
 ### Feature Highlights
 This is a free, light, open-source version of Skillsaint to try out and use as a landing page. Skillsaint Pro includes all the features with fully functional LMS features mentioned below.
 
-#### **Modern Stack**
+#### **Modern Tech-Stack**
 Built with React, Next.js, Tailwind CSS, and Sanity CMS for performance, SEO, and flexible content management.
 
 #### **Complete LMS Features with CMS**
@@ -21,7 +24,7 @@ Courses, lessons, user authentication, enrollment, dashboards, progress tracking
 Stripe-powered checkout for paid courses. Secure payments, automatic enrollment, and controlled access to premium content.
 
 #### **Essential Integrations**
-Sanity for content, Algolia for search, Stripe for payments, and Auth,js for authentication - ready to use out of the box.
+Sanity for content, Prisma for PostgreSQL, Stripe for payments, Auth.js for authentication and many more - ready to use out of the box.
 
 #### **Scalable & Extendable**
 Start with a solid boilerplate and extend as your platform grows. Clean architecture designed for customization.
