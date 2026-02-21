@@ -4,6 +4,7 @@ Skillsaint is a production-ready **LMS template built with React, Next.js, and S
 
 ![Skillsaint - React Next.js Sanity LMS Template](./skillsaint-lms.png)
 
+#### [🚀 Visit Website](https://skillsaint.com)
 
 #### [🚀 Live Demo](https://demo.skillsaint.com)
 
